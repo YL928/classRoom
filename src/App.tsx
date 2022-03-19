@@ -1,9 +1,9 @@
-import Layout from "./components/Layout"
+import PageLayout from "./components/Layout"
+import 'antd/dist/antd.css'
 export function App() {
   return (
     <>
-      <Layout />
-      <button>Primary button</button>
+      <PageLayout />
     </>
   )
 }

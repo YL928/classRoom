@@ -15,11 +15,16 @@
   "keywords": [],
   "license": "MIT",
   "dependencies": {
+    "@types/lodash": "^4.14.179",
     "antd": "^4.19.1",
+    "lodash": "^4.17.21",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-hot-loader": "4.13.0",
     "styled-components": "5.3.0"
+  },
+  "build": {
+    "appId": "com.example.app"
   },
   "devDependencies": {
     "@babel/core": "7.14.6",
